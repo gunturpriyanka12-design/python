@@ -1,0 +1,18 @@
+def a1():
+    a=10
+    b=20
+    print(a+b)
+def a2(a,b):
+    print(a+b)
+def a3():
+    n1=50
+    n2=30
+    return n1+n2
+def a4(a,b):
+    return a+b
+a1()
+a2(100,80)
+res=a3()
+print(res)
+res1=a4(100,20)
+print(res1)
