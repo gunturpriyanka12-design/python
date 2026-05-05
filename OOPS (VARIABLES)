@@ -1,0 +1,33 @@
+country="INDIA"
+class ace:
+    col="ACE ENGINEERING"
+    def set_dim(self,a,b,c,d):
+        self.tot=a+b+c
+        self.name=d
+    def display(self):
+        print("1 Name",self.name)
+        print("2 Total",self.tot)
+        print("3 College",ace.col)
+        print("4 Country",country)
+class bvrit:
+    col="BVRIT WOMEN"
+    def set_dim(self,a,b,c):
+        self.tot=a+b
+        self.name=c
+    def display(self):
+        print("1 Name",self.name)
+        print("2 Total",self.tot)
+        print("3 College",bvrit.col)
+        print("4 Country",country)
+a=ace()
+a1=ace()                
+b=bvrit()
+b1=bvrit()
+a.set_dim(20,30,40,"PRIYA")
+a1.set_dim(25,35,45,"SHAILU")
+b.set_dim(40,50,"PRIYANKA")
+b1.set_dim(40,50,"LAHARI")
+a.display()
+a1.display()
+b.display()
+b1.display()
